@@ -1,0 +1,4951 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/lalita/ontologies/2021/11/untitled-ontology-25"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/lalita/ontologies/2021/11/untitled-ontology-25">
+    <Prefix name="" IRI="http://www.semanticweb.org/lalita/ontologies/2021/11/untitled-ontology-25"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Array"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C_sharp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C_sharp_built-in_function"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C_sharp_data_structure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C_sharp_data_types"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C_sharp_exception"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C_sharp_operators"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C_sharp_statements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dictionary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Java"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Java_buit-in_function"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Java_data_structure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Java_data_types"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Java_exception"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Java_operators"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Java_statements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#List"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Map"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Python"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Python_built-in_function"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Python_data_structure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Python_exception"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Python_operators"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Python_statements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Set"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#arithmetic_operators"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#array_methods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#assignment_operators"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#assignment_with_operators"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#built-in_function"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#class"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#common_concepts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#conditionals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#data_structure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#data_types"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#definite_loop_Python"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dictionary_methods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#enum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#exception"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#functions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#interfaces"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#jump_statements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#list_methods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#methods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nested_control"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#operators"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#primitive_data_types"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#repetition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#standard_input"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#standard_output"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#type_conversion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#variables"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#reference_data_types:object"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#can_be_extended"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#consists_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#depend_on"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#extend_from"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_an_instance"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_an_instance_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_part_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_similar_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#related_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#use_with"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#defination"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#example"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#grammar_specification"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Addition"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ArrayList_C"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ArrayList_Java"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dictionary_C"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dictionary_Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Division"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Exponentiation_Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Floor_division_Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HashSet_Java"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hashtable_Java"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LinkedList_Java"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Modulus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Multiplication"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Negative_sign"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Parentheses"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Queue_Java"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#String"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Subtraction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TreeSet_Java"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#add_an_element"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#add_an_element_at_the_specified_position"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#add_the_elements_to_the_end"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#arguments"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#assignment_statement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#boolean"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#break"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#casting_Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#continue"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#float"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#for_inside_for"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#foreach_C"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#foreach_Java"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fruitful_function"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hashmap_Java"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#if...elif...else_Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#if...else_Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#if_Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#if_inside_another_else_block"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#if_inside_another_if_block"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#indefinite_loop_Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#input_C"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#input_Java"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#input_Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#int"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#list_C"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#list_Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#math_Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#output_C"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#output_Java"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#output_Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#parameters"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#remove_all_the_elements"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#remove_the_specific_element"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#removes_the_first_element"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#removes_the_last_element"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#returns_a_copy_of_all_the_items"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#returns_a_specific_value"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#returns_a_value_of_all_elements"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#returns_the_index_of_the_first_element_with_specified_value"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#returns_the_number_of_the_elements"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#reverse_all_the_elements"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#reverse_the_order"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sort_the_elements"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#string_function"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#try...except_Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#updates_the_specified_value"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#void_function"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#while_inside_while"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#**=_Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#*="/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#+="/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#-="/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#//=_Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#/="/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#="/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Add()_C"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Array_C/Java"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Clear()_C"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Decrement_C/Java"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Increment_C/Java"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Math_C/Java"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Remove()_C"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stack_C/Java"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#add()_Java"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#and="/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#append()_Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#casting_C/Java"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#clear()_Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#copy()_Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#count()_Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#definite_loop_C/Java"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#extend()_Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fromkeys()_Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#get()_Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#if...else_C/Java"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#if...else_if...else_C/Java"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#if_C/Java"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#indefinite_loop_C/Java"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#index()_Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#insert()_Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#items()_Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#keys()_Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mod="/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#or="/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pop()"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pop()_Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#popitem()_Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#remove()_Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#reverse()_C"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#reverse()_Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#setdefault()_Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sort()_C"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sort()_Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#try-catch-finally_C/Java"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#update()_Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#values()_Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#variable_declaration_C/Java"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Array"/>
+        <Class IRI="#data_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C_sharp_built-in_function"/>
+        <Class IRI="#C_sharp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C_sharp_data_structure"/>
+        <Class IRI="#C_sharp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C_sharp_data_types"/>
+        <Class IRI="#C_sharp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C_sharp_exception"/>
+        <Class IRI="#C_sharp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C_sharp_operators"/>
+        <Class IRI="#C_sharp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C_sharp_statements"/>
+        <Class IRI="#C_sharp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dictionary"/>
+        <Class IRI="#data_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Java_buit-in_function"/>
+        <Class IRI="#Java"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Java_data_structure"/>
+        <Class IRI="#Java"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Java_data_types"/>
+        <Class IRI="#Java"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Java_exception"/>
+        <Class IRI="#Java"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Java_operators"/>
+        <Class IRI="#Java"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Java_statements"/>
+        <Class IRI="#Java"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#List"/>
+        <Class IRI="#data_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Map"/>
+        <Class IRI="#data_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Python_built-in_function"/>
+        <Class IRI="#Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Python_data_structure"/>
+        <Class IRI="#Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Python_exception"/>
+        <Class IRI="#Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Python_operators"/>
+        <Class IRI="#Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Python_statements"/>
+        <Class IRI="#Python"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Set"/>
+        <Class IRI="#data_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#arithmetic_operators"/>
+        <Class IRI="#operators"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#array_methods"/>
+        <Class IRI="#Array"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#assignment_operators"/>
+        <Class IRI="#operators"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#assignment_with_operators"/>
+        <Class IRI="#assignment_operators"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#built-in_function"/>
+        <Class IRI="#common_concepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#class"/>
+        <Class IRI="#reference_data_types:object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#conditionals"/>
+        <Class IRI="#common_concepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#data_structure"/>
+        <Class IRI="#common_concepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#data_types"/>
+        <Class IRI="#common_concepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#definite_loop_Python"/>
+        <Class IRI="#Python_statements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dictionary_methods"/>
+        <Class IRI="#Dictionary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#enum"/>
+        <Class IRI="#reference_data_types:object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#exception"/>
+        <Class IRI="#common_concepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#functions"/>
+        <Class IRI="#common_concepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#interfaces"/>
+        <Class IRI="#reference_data_types:object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#jump_statements"/>
+        <Class IRI="#repetition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#list_methods"/>
+        <Class IRI="#List"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#methods"/>
+        <Class IRI="#common_concepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nested_control"/>
+        <Class IRI="#common_concepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#operators"/>
+        <Class IRI="#common_concepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#primitive_data_types"/>
+        <Class IRI="#data_types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#repetition"/>
+        <Class IRI="#common_concepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#standard_input"/>
+        <Class IRI="#built-in_function"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#standard_output"/>
+        <Class IRI="#built-in_function"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#type_conversion"/>
+        <Class IRI="#built-in_function"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#variables"/>
+        <Class IRI="#common_concepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#reference_data_types:object"/>
+        <Class IRI="#data_types"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_operators"/>
+        <NamedIndividual IRI="#Addition"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_operators"/>
+        <NamedIndividual IRI="#Addition"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_operators"/>
+        <NamedIndividual IRI="#Addition"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#arithmetic_operators"/>
+        <NamedIndividual IRI="#Addition"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_data_structure"/>
+        <NamedIndividual IRI="#ArrayList_C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#List"/>
+        <NamedIndividual IRI="#ArrayList_C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#class"/>
+        <NamedIndividual IRI="#ArrayList_C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_data_structure"/>
+        <NamedIndividual IRI="#ArrayList_Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#List"/>
+        <NamedIndividual IRI="#ArrayList_Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#class"/>
+        <NamedIndividual IRI="#ArrayList_Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_data_structure"/>
+        <NamedIndividual IRI="#Dictionary_C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dictionary"/>
+        <NamedIndividual IRI="#Dictionary_C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dictionary"/>
+        <NamedIndividual IRI="#Dictionary_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_data_structure"/>
+        <NamedIndividual IRI="#Dictionary_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_operators"/>
+        <NamedIndividual IRI="#Division"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_operators"/>
+        <NamedIndividual IRI="#Division"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_operators"/>
+        <NamedIndividual IRI="#Division"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#arithmetic_operators"/>
+        <NamedIndividual IRI="#Division"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_operators"/>
+        <NamedIndividual IRI="#Exponentiation_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#arithmetic_operators"/>
+        <NamedIndividual IRI="#Exponentiation_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_operators"/>
+        <NamedIndividual IRI="#Floor_division_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#arithmetic_operators"/>
+        <NamedIndividual IRI="#Floor_division_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_data_structure"/>
+        <NamedIndividual IRI="#HashSet_Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Set"/>
+        <NamedIndividual IRI="#HashSet_Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dictionary"/>
+        <NamedIndividual IRI="#Hashtable_Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_data_structure"/>
+        <NamedIndividual IRI="#Hashtable_Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_data_structure"/>
+        <NamedIndividual IRI="#LinkedList_Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#List"/>
+        <NamedIndividual IRI="#LinkedList_Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#class"/>
+        <NamedIndividual IRI="#LinkedList_Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_operators"/>
+        <NamedIndividual IRI="#Modulus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_operators"/>
+        <NamedIndividual IRI="#Modulus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_operators"/>
+        <NamedIndividual IRI="#Modulus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#arithmetic_operators"/>
+        <NamedIndividual IRI="#Modulus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_operators"/>
+        <NamedIndividual IRI="#Multiplication"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_operators"/>
+        <NamedIndividual IRI="#Multiplication"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_operators"/>
+        <NamedIndividual IRI="#Multiplication"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#arithmetic_operators"/>
+        <NamedIndividual IRI="#Multiplication"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_operators"/>
+        <NamedIndividual IRI="#Negative_sign"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_operators"/>
+        <NamedIndividual IRI="#Negative_sign"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_operators"/>
+        <NamedIndividual IRI="#Negative_sign"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#arithmetic_operators"/>
+        <NamedIndividual IRI="#Negative_sign"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_operators"/>
+        <NamedIndividual IRI="#Parentheses"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_operators"/>
+        <NamedIndividual IRI="#Parentheses"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_operators"/>
+        <NamedIndividual IRI="#Parentheses"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#arithmetic_operators"/>
+        <NamedIndividual IRI="#Parentheses"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_data_structure"/>
+        <NamedIndividual IRI="#Queue_Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#class"/>
+        <NamedIndividual IRI="#Queue_Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_data_types"/>
+        <NamedIndividual IRI="#String"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_data_types"/>
+        <NamedIndividual IRI="#String"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#reference_data_types:object"/>
+        <NamedIndividual IRI="#String"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_operators"/>
+        <NamedIndividual IRI="#Subtraction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_operators"/>
+        <NamedIndividual IRI="#Subtraction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_operators"/>
+        <NamedIndividual IRI="#Subtraction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#arithmetic_operators"/>
+        <NamedIndividual IRI="#Subtraction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_data_structure"/>
+        <NamedIndividual IRI="#TreeSet_Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Set"/>
+        <NamedIndividual IRI="#TreeSet_Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#methods"/>
+        <NamedIndividual IRI="#add_an_element"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#methods"/>
+        <NamedIndividual IRI="#add_an_element_at_the_specified_position"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#methods"/>
+        <NamedIndividual IRI="#add_the_elements_to_the_end"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#functions"/>
+        <NamedIndividual IRI="#arguments"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_statements"/>
+        <NamedIndividual IRI="#assignment_statement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_statements"/>
+        <NamedIndividual IRI="#assignment_statement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_statements"/>
+        <NamedIndividual IRI="#assignment_statement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#variables"/>
+        <NamedIndividual IRI="#assignment_statement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_data_types"/>
+        <NamedIndividual IRI="#boolean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_data_types"/>
+        <NamedIndividual IRI="#boolean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#primitive_data_types"/>
+        <NamedIndividual IRI="#boolean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_statements"/>
+        <NamedIndividual IRI="#break"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_statements"/>
+        <NamedIndividual IRI="#break"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_statements"/>
+        <NamedIndividual IRI="#break"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#jump_statements"/>
+        <NamedIndividual IRI="#break"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_built-in_function"/>
+        <NamedIndividual IRI="#casting_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#type_conversion"/>
+        <NamedIndividual IRI="#casting_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_statements"/>
+        <NamedIndividual IRI="#continue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_statements"/>
+        <NamedIndividual IRI="#continue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_statements"/>
+        <NamedIndividual IRI="#continue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#jump_statements"/>
+        <NamedIndividual IRI="#continue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_data_types"/>
+        <NamedIndividual IRI="#float"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_data_types"/>
+        <NamedIndividual IRI="#float"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#primitive_data_types"/>
+        <NamedIndividual IRI="#float"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_statements"/>
+        <NamedIndividual IRI="#for_inside_for"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_statements"/>
+        <NamedIndividual IRI="#for_inside_for"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_statements"/>
+        <NamedIndividual IRI="#for_inside_for"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#nested_control"/>
+        <NamedIndividual IRI="#for_inside_for"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_statements"/>
+        <NamedIndividual IRI="#foreach_C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#repetition"/>
+        <NamedIndividual IRI="#foreach_C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_statements"/>
+        <NamedIndividual IRI="#foreach_Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#repetition"/>
+        <NamedIndividual IRI="#foreach_Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_built-in_function"/>
+        <NamedIndividual IRI="#fruitful_function"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#functions"/>
+        <NamedIndividual IRI="#fruitful_function"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_data_structure"/>
+        <NamedIndividual IRI="#hashmap_Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Map"/>
+        <NamedIndividual IRI="#hashmap_Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_statements"/>
+        <NamedIndividual IRI="#if...elif...else_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#conditionals"/>
+        <NamedIndividual IRI="#if...elif...else_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_statements"/>
+        <NamedIndividual IRI="#if...else_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#conditionals"/>
+        <NamedIndividual IRI="#if...else_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_statements"/>
+        <NamedIndividual IRI="#if_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#conditionals"/>
+        <NamedIndividual IRI="#if_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_statements"/>
+        <NamedIndividual IRI="#if_inside_another_else_block"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_statements"/>
+        <NamedIndividual IRI="#if_inside_another_else_block"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_statements"/>
+        <NamedIndividual IRI="#if_inside_another_else_block"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#nested_control"/>
+        <NamedIndividual IRI="#if_inside_another_else_block"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_statements"/>
+        <NamedIndividual IRI="#if_inside_another_if_block"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_statements"/>
+        <NamedIndividual IRI="#if_inside_another_if_block"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_statements"/>
+        <NamedIndividual IRI="#if_inside_another_if_block"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#nested_control"/>
+        <NamedIndividual IRI="#if_inside_another_if_block"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_statements"/>
+        <NamedIndividual IRI="#indefinite_loop_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#repetition"/>
+        <NamedIndividual IRI="#indefinite_loop_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_statements"/>
+        <NamedIndividual IRI="#input_C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#standard_input"/>
+        <NamedIndividual IRI="#input_C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_statements"/>
+        <NamedIndividual IRI="#input_Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#standard_input"/>
+        <NamedIndividual IRI="#input_Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_statements"/>
+        <NamedIndividual IRI="#input_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#standard_input"/>
+        <NamedIndividual IRI="#input_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_data_types"/>
+        <NamedIndividual IRI="#int"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_data_types"/>
+        <NamedIndividual IRI="#int"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#primitive_data_types"/>
+        <NamedIndividual IRI="#int"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_data_structure"/>
+        <NamedIndividual IRI="#list_C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#List"/>
+        <NamedIndividual IRI="#list_C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#List"/>
+        <NamedIndividual IRI="#list_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_data_structure"/>
+        <NamedIndividual IRI="#list_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_built-in_function"/>
+        <NamedIndividual IRI="#math_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#built-in_function"/>
+        <NamedIndividual IRI="#math_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_statements"/>
+        <NamedIndividual IRI="#output_C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#standard_output"/>
+        <NamedIndividual IRI="#output_C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_statements"/>
+        <NamedIndividual IRI="#output_Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#standard_output"/>
+        <NamedIndividual IRI="#output_Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_statements"/>
+        <NamedIndividual IRI="#output_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#standard_output"/>
+        <NamedIndividual IRI="#output_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#functions"/>
+        <NamedIndividual IRI="#parameters"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#methods"/>
+        <NamedIndividual IRI="#remove_all_the_elements"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#methods"/>
+        <NamedIndividual IRI="#remove_the_specific_element"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#methods"/>
+        <NamedIndividual IRI="#removes_the_first_element"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#methods"/>
+        <NamedIndividual IRI="#removes_the_last_element"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#methods"/>
+        <NamedIndividual IRI="#returns_a_copy_of_all_the_items"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#methods"/>
+        <NamedIndividual IRI="#returns_a_specific_value"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#methods"/>
+        <NamedIndividual IRI="#returns_a_value_of_all_elements"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#methods"/>
+        <NamedIndividual IRI="#returns_the_index_of_the_first_element_with_specified_value"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#methods"/>
+        <NamedIndividual IRI="#returns_the_number_of_the_elements"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#methods"/>
+        <NamedIndividual IRI="#reverse_all_the_elements"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#methods"/>
+        <NamedIndividual IRI="#reverse_the_order"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#methods"/>
+        <NamedIndividual IRI="#sort_the_elements"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_built-in_function"/>
+        <NamedIndividual IRI="#string_function"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_buit-in_function"/>
+        <NamedIndividual IRI="#string_function"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_built-in_function"/>
+        <NamedIndividual IRI="#string_function"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#built-in_function"/>
+        <NamedIndividual IRI="#string_function"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_exception"/>
+        <NamedIndividual IRI="#try...except_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#exception"/>
+        <NamedIndividual IRI="#try...except_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#methods"/>
+        <NamedIndividual IRI="#updates_the_specified_value"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_built-in_function"/>
+        <NamedIndividual IRI="#void_function"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#functions"/>
+        <NamedIndividual IRI="#void_function"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_statements"/>
+        <NamedIndividual IRI="#while_inside_while"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_statements"/>
+        <NamedIndividual IRI="#while_inside_while"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_statements"/>
+        <NamedIndividual IRI="#while_inside_while"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#nested_control"/>
+        <NamedIndividual IRI="#while_inside_while"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_operators"/>
+        <NamedIndividual IRI="#**=_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#assignment_with_operators"/>
+        <NamedIndividual IRI="#**=_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_operators"/>
+        <NamedIndividual IRI="#*="/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_operators"/>
+        <NamedIndividual IRI="#*="/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_operators"/>
+        <NamedIndividual IRI="#*="/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#assignment_with_operators"/>
+        <NamedIndividual IRI="#*="/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_operators"/>
+        <NamedIndividual IRI="#+="/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_operators"/>
+        <NamedIndividual IRI="#+="/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_operators"/>
+        <NamedIndividual IRI="#+="/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#assignment_with_operators"/>
+        <NamedIndividual IRI="#+="/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_operators"/>
+        <NamedIndividual IRI="#-="/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_operators"/>
+        <NamedIndividual IRI="#-="/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_operators"/>
+        <NamedIndividual IRI="#-="/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#assignment_with_operators"/>
+        <NamedIndividual IRI="#-="/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_operators"/>
+        <NamedIndividual IRI="#//=_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#assignment_with_operators"/>
+        <NamedIndividual IRI="#//=_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_operators"/>
+        <NamedIndividual IRI="#/="/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_operators"/>
+        <NamedIndividual IRI="#/="/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_operators"/>
+        <NamedIndividual IRI="#/="/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#assignment_with_operators"/>
+        <NamedIndividual IRI="#/="/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_operators"/>
+        <NamedIndividual IRI="#="/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_operators"/>
+        <NamedIndividual IRI="#="/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_operators"/>
+        <NamedIndividual IRI="#="/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#assignment_operators"/>
+        <NamedIndividual IRI="#="/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_built-in_function"/>
+        <NamedIndividual IRI="#Add()_C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#list_methods"/>
+        <NamedIndividual IRI="#Add()_C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Array"/>
+        <NamedIndividual IRI="#Array_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_data_structure"/>
+        <NamedIndividual IRI="#Array_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_data_structure"/>
+        <NamedIndividual IRI="#Array_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_built-in_function"/>
+        <NamedIndividual IRI="#Clear()_C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#dictionary_methods"/>
+        <NamedIndividual IRI="#Clear()_C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_operators"/>
+        <NamedIndividual IRI="#Decrement_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_statements"/>
+        <NamedIndividual IRI="#Decrement_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_operators"/>
+        <NamedIndividual IRI="#Decrement_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_statements"/>
+        <NamedIndividual IRI="#Decrement_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#arithmetic_operators"/>
+        <NamedIndividual IRI="#Decrement_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_operators"/>
+        <NamedIndividual IRI="#Increment_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_statements"/>
+        <NamedIndividual IRI="#Increment_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_operators"/>
+        <NamedIndividual IRI="#Increment_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_statements"/>
+        <NamedIndividual IRI="#Increment_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#arithmetic_operators"/>
+        <NamedIndividual IRI="#Increment_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_built-in_function"/>
+        <NamedIndividual IRI="#Math_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_buit-in_function"/>
+        <NamedIndividual IRI="#Math_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#built-in_function"/>
+        <NamedIndividual IRI="#Math_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#class"/>
+        <NamedIndividual IRI="#Math_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_built-in_function"/>
+        <NamedIndividual IRI="#Remove()_C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#dictionary_methods"/>
+        <NamedIndividual IRI="#Remove()_C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_data_structure"/>
+        <NamedIndividual IRI="#Stack_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_data_structure"/>
+        <NamedIndividual IRI="#Stack_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#class"/>
+        <NamedIndividual IRI="#Stack_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_buit-in_function"/>
+        <NamedIndividual IRI="#add()_Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#list_methods"/>
+        <NamedIndividual IRI="#add()_Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_operators"/>
+        <NamedIndividual IRI="#and="/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_operators"/>
+        <NamedIndividual IRI="#and="/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_operators"/>
+        <NamedIndividual IRI="#and="/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#assignment_with_operators"/>
+        <NamedIndividual IRI="#and="/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_built-in_function"/>
+        <NamedIndividual IRI="#append()_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#list_methods"/>
+        <NamedIndividual IRI="#append()_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_built-in_function"/>
+        <NamedIndividual IRI="#casting_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_buit-in_function"/>
+        <NamedIndividual IRI="#casting_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#type_conversion"/>
+        <NamedIndividual IRI="#casting_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_built-in_function"/>
+        <NamedIndividual IRI="#clear()_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#dictionary_methods"/>
+        <NamedIndividual IRI="#clear()_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#list_methods"/>
+        <NamedIndividual IRI="#clear()_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_built-in_function"/>
+        <NamedIndividual IRI="#copy()_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#dictionary_methods"/>
+        <NamedIndividual IRI="#copy()_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#list_methods"/>
+        <NamedIndividual IRI="#copy()_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_built-in_function"/>
+        <NamedIndividual IRI="#count()_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#list_methods"/>
+        <NamedIndividual IRI="#count()_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_statements"/>
+        <NamedIndividual IRI="#definite_loop_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_statements"/>
+        <NamedIndividual IRI="#definite_loop_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#repetition"/>
+        <NamedIndividual IRI="#definite_loop_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_built-in_function"/>
+        <NamedIndividual IRI="#extend()_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#list_methods"/>
+        <NamedIndividual IRI="#extend()_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_built-in_function"/>
+        <NamedIndividual IRI="#fromkeys()_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#dictionary_methods"/>
+        <NamedIndividual IRI="#fromkeys()_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_built-in_function"/>
+        <NamedIndividual IRI="#get()_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#dictionary_methods"/>
+        <NamedIndividual IRI="#get()_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_statements"/>
+        <NamedIndividual IRI="#if...else_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_statements"/>
+        <NamedIndividual IRI="#if...else_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#conditionals"/>
+        <NamedIndividual IRI="#if...else_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_statements"/>
+        <NamedIndividual IRI="#if...else_if...else_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_statements"/>
+        <NamedIndividual IRI="#if...else_if...else_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#conditionals"/>
+        <NamedIndividual IRI="#if...else_if...else_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_statements"/>
+        <NamedIndividual IRI="#if_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_statements"/>
+        <NamedIndividual IRI="#if_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#conditionals"/>
+        <NamedIndividual IRI="#if_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_statements"/>
+        <NamedIndividual IRI="#indefinite_loop_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_statements"/>
+        <NamedIndividual IRI="#indefinite_loop_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#repetition"/>
+        <NamedIndividual IRI="#indefinite_loop_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_built-in_function"/>
+        <NamedIndividual IRI="#index()_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#list_methods"/>
+        <NamedIndividual IRI="#index()_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_built-in_function"/>
+        <NamedIndividual IRI="#insert()_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#list_methods"/>
+        <NamedIndividual IRI="#insert()_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_built-in_function"/>
+        <NamedIndividual IRI="#items()_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#dictionary_methods"/>
+        <NamedIndividual IRI="#items()_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_built-in_function"/>
+        <NamedIndividual IRI="#keys()_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#dictionary_methods"/>
+        <NamedIndividual IRI="#keys()_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_operators"/>
+        <NamedIndividual IRI="#mod="/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_operators"/>
+        <NamedIndividual IRI="#mod="/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_operators"/>
+        <NamedIndividual IRI="#mod="/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#assignment_with_operators"/>
+        <NamedIndividual IRI="#mod="/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_operators"/>
+        <NamedIndividual IRI="#or="/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_operators"/>
+        <NamedIndividual IRI="#or="/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_operators"/>
+        <NamedIndividual IRI="#or="/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#assignment_with_operators"/>
+        <NamedIndividual IRI="#or="/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_built-in_function"/>
+        <NamedIndividual IRI="#pop()_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#dictionary_methods"/>
+        <NamedIndividual IRI="#pop()_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#list_methods"/>
+        <NamedIndividual IRI="#pop()_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_built-in_function"/>
+        <NamedIndividual IRI="#popitem()_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#dictionary_methods"/>
+        <NamedIndividual IRI="#popitem()_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_built-in_function"/>
+        <NamedIndividual IRI="#remove()_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#list_methods"/>
+        <NamedIndividual IRI="#remove()_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_built-in_function"/>
+        <NamedIndividual IRI="#reverse()_C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#array_methods"/>
+        <NamedIndividual IRI="#reverse()_C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_built-in_function"/>
+        <NamedIndividual IRI="#reverse()_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#list_methods"/>
+        <NamedIndividual IRI="#reverse()_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_built-in_function"/>
+        <NamedIndividual IRI="#setdefault()_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#dictionary_methods"/>
+        <NamedIndividual IRI="#setdefault()_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_built-in_function"/>
+        <NamedIndividual IRI="#sort()_C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#array_methods"/>
+        <NamedIndividual IRI="#sort()_C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_built-in_function"/>
+        <NamedIndividual IRI="#sort()_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#list_methods"/>
+        <NamedIndividual IRI="#sort()_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_exception"/>
+        <NamedIndividual IRI="#try-catch-finally_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_exception"/>
+        <NamedIndividual IRI="#try-catch-finally_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#exception"/>
+        <NamedIndividual IRI="#try-catch-finally_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_built-in_function"/>
+        <NamedIndividual IRI="#update()_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#dictionary_methods"/>
+        <NamedIndividual IRI="#update()_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Python_built-in_function"/>
+        <NamedIndividual IRI="#values()_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#dictionary_methods"/>
+        <NamedIndividual IRI="#values()_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#C_sharp_statements"/>
+        <NamedIndividual IRI="#variable_declaration_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Java_statements"/>
+        <NamedIndividual IRI="#variable_declaration_C/Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#variables"/>
+        <NamedIndividual IRI="#variable_declaration_C/Java"/>
+    </ClassAssertion>
+    <SameIndividual>
+        <NamedIndividual IRI="#Clear()_C"/>
+        <NamedIndividual IRI="#clear()_Python"/>
+    </SameIndividual>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#extend_from"/>
+        <NamedIndividual IRI="#ArrayList_C"/>
+        <NamedIndividual IRI="#Array_C/Java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#extend_from"/>
+        <NamedIndividual IRI="#ArrayList_Java"/>
+        <NamedIndividual IRI="#Array_C/Java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_similar_to"/>
+        <NamedIndividual IRI="#Dictionary_C"/>
+        <NamedIndividual IRI="#hashmap_Java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_similar_to"/>
+        <NamedIndividual IRI="#Dictionary_Python"/>
+        <NamedIndividual IRI="#hashmap_Java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_similar_to"/>
+        <NamedIndividual IRI="#HashSet_Java"/>
+        <NamedIndividual IRI="#TreeSet_Java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_similar_to"/>
+        <NamedIndividual IRI="#TreeSet_Java"/>
+        <NamedIndividual IRI="#HashSet_Java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_an_instance"/>
+        <NamedIndividual IRI="#add_an_element"/>
+        <NamedIndividual IRI="#Add()_C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_an_instance"/>
+        <NamedIndividual IRI="#add_an_element"/>
+        <NamedIndividual IRI="#add()_Java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_an_instance"/>
+        <NamedIndividual IRI="#add_an_element"/>
+        <NamedIndividual IRI="#append()_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_an_instance"/>
+        <NamedIndividual IRI="#add_an_element_at_the_specified_position"/>
+        <NamedIndividual IRI="#insert()_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_an_instance"/>
+        <NamedIndividual IRI="#add_the_elements_to_the_end"/>
+        <NamedIndividual IRI="#Add()_C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_an_instance"/>
+        <NamedIndividual IRI="#add_the_elements_to_the_end"/>
+        <NamedIndividual IRI="#add()_Java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_an_instance"/>
+        <NamedIndividual IRI="#add_the_elements_to_the_end"/>
+        <NamedIndividual IRI="#append()_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_an_instance"/>
+        <NamedIndividual IRI="#add_the_elements_to_the_end"/>
+        <NamedIndividual IRI="#extend()_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#use_with"/>
+        <NamedIndividual IRI="#assignment_statement"/>
+        <NamedIndividual IRI="#="/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_similar_to"/>
+        <NamedIndividual IRI="#for_inside_for"/>
+        <NamedIndividual IRI="#definite_loop_C/Java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#use_with"/>
+        <NamedIndividual IRI="#foreach_C"/>
+        <NamedIndividual IRI="#ArrayList_C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#use_with"/>
+        <NamedIndividual IRI="#foreach_C"/>
+        <NamedIndividual IRI="#Array_C/Java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#use_with"/>
+        <NamedIndividual IRI="#foreach_Java"/>
+        <NamedIndividual IRI="#ArrayList_Java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#use_with"/>
+        <NamedIndividual IRI="#foreach_Java"/>
+        <NamedIndividual IRI="#Array_C/Java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_similar_to"/>
+        <NamedIndividual IRI="#hashmap_Java"/>
+        <NamedIndividual IRI="#Dictionary_C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_similar_to"/>
+        <NamedIndividual IRI="#hashmap_Java"/>
+        <NamedIndividual IRI="#Dictionary_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#extend_from"/>
+        <NamedIndividual IRI="#if...elif...else_Python"/>
+        <NamedIndividual IRI="#if...else_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#can_be_extended"/>
+        <NamedIndividual IRI="#if...else_Python"/>
+        <NamedIndividual IRI="#if...elif...else_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#extend_from"/>
+        <NamedIndividual IRI="#if...else_Python"/>
+        <NamedIndividual IRI="#if_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#can_be_extended"/>
+        <NamedIndividual IRI="#if_Python"/>
+        <NamedIndividual IRI="#if...else_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_similar_to"/>
+        <NamedIndividual IRI="#if_inside_another_else_block"/>
+        <NamedIndividual IRI="#if...else_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_similar_to"/>
+        <NamedIndividual IRI="#if_inside_another_else_block"/>
+        <NamedIndividual IRI="#if...else_C/Java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_similar_to"/>
+        <NamedIndividual IRI="#if_inside_another_if_block"/>
+        <NamedIndividual IRI="#if_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_similar_to"/>
+        <NamedIndividual IRI="#if_inside_another_if_block"/>
+        <NamedIndividual IRI="#if_C/Java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_an_instance"/>
+        <NamedIndividual IRI="#remove_all_the_elements"/>
+        <NamedIndividual IRI="#Clear()_C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_an_instance"/>
+        <NamedIndividual IRI="#remove_all_the_elements"/>
+        <NamedIndividual IRI="#clear()_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_an_instance"/>
+        <NamedIndividual IRI="#remove_the_specific_element"/>
+        <NamedIndividual IRI="#Remove()_C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_an_instance"/>
+        <NamedIndividual IRI="#remove_the_specific_element"/>
+        <NamedIndividual IRI="#pop()_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_an_instance"/>
+        <NamedIndividual IRI="#removes_the_first_element"/>
+        <NamedIndividual IRI="#remove()_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_an_instance"/>
+        <NamedIndividual IRI="#removes_the_last_element"/>
+        <NamedIndividual IRI="#popitem()_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_an_instance"/>
+        <NamedIndividual IRI="#returns_a_copy_of_all_the_items"/>
+        <NamedIndividual IRI="#copy()_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_an_instance"/>
+        <NamedIndividual IRI="#returns_a_specific_value"/>
+        <NamedIndividual IRI="#fromkeys()_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_an_instance"/>
+        <NamedIndividual IRI="#returns_a_specific_value"/>
+        <NamedIndividual IRI="#get()_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_an_instance"/>
+        <NamedIndividual IRI="#returns_a_specific_value"/>
+        <NamedIndividual IRI="#items()_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_an_instance"/>
+        <NamedIndividual IRI="#returns_a_specific_value"/>
+        <NamedIndividual IRI="#keys()_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_an_instance"/>
+        <NamedIndividual IRI="#returns_a_specific_value"/>
+        <NamedIndividual IRI="#setdefault()_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_an_instance"/>
+        <NamedIndividual IRI="#returns_a_value_of_all_elements"/>
+        <NamedIndividual IRI="#values()_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_an_instance"/>
+        <NamedIndividual IRI="#returns_the_index_of_the_first_element_with_specified_value"/>
+        <NamedIndividual IRI="#index()_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_an_instance"/>
+        <NamedIndividual IRI="#returns_the_number_of_the_elements"/>
+        <NamedIndividual IRI="#count()_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_an_instance"/>
+        <NamedIndividual IRI="#reverse_all_the_elements"/>
+        <NamedIndividual IRI="#reverse()_C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_an_instance"/>
+        <NamedIndividual IRI="#reverse_the_order"/>
+        <NamedIndividual IRI="#reverse()_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_an_instance"/>
+        <NamedIndividual IRI="#sort_the_elements"/>
+        <NamedIndividual IRI="#sort()_C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_an_instance"/>
+        <NamedIndividual IRI="#sort_the_elements"/>
+        <NamedIndividual IRI="#sort()_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_an_instance"/>
+        <NamedIndividual IRI="#updates_the_specified_value"/>
+        <NamedIndividual IRI="#update()_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_similar_to"/>
+        <NamedIndividual IRI="#while_inside_while"/>
+        <NamedIndividual IRI="#indefinite_loop_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_similar_to"/>
+        <NamedIndividual IRI="#while_inside_while"/>
+        <NamedIndividual IRI="#indefinite_loop_C/Java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_an_instance_of"/>
+        <NamedIndividual IRI="#Add()_C"/>
+        <NamedIndividual IRI="#add_the_elements_to_the_end"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#use_with"/>
+        <NamedIndividual IRI="#Add()_C"/>
+        <NamedIndividual IRI="#ArrayList_C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#can_be_extended"/>
+        <NamedIndividual IRI="#Array_C/Java"/>
+        <NamedIndividual IRI="#ArrayList_C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#can_be_extended"/>
+        <NamedIndividual IRI="#Array_C/Java"/>
+        <NamedIndividual IRI="#ArrayList_Java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_an_instance_of"/>
+        <NamedIndividual IRI="#Clear()_C"/>
+        <NamedIndividual IRI="#remove_all_the_elements"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#use_with"/>
+        <NamedIndividual IRI="#Clear()_C"/>
+        <NamedIndividual IRI="#Dictionary_C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_an_instance_of"/>
+        <NamedIndividual IRI="#Remove()_C"/>
+        <NamedIndividual IRI="#remove_the_specific_element"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#use_with"/>
+        <NamedIndividual IRI="#Remove()_C"/>
+        <NamedIndividual IRI="#Dictionary_C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_an_instance_of"/>
+        <NamedIndividual IRI="#add()_Java"/>
+        <NamedIndividual IRI="#add_the_elements_to_the_end"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#use_with"/>
+        <NamedIndividual IRI="#add()_Java"/>
+        <NamedIndividual IRI="#ArrayList_Java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#use_with"/>
+        <NamedIndividual IRI="#add()_Java"/>
+        <NamedIndividual IRI="#Queue_Java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_an_instance_of"/>
+        <NamedIndividual IRI="#append()_Python"/>
+        <NamedIndividual IRI="#add_the_elements_to_the_end"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#use_with"/>
+        <NamedIndividual IRI="#append()_Python"/>
+        <NamedIndividual IRI="#list_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_an_instance_of"/>
+        <NamedIndividual IRI="#clear()_Python"/>
+        <NamedIndividual IRI="#remove_all_the_elements"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#use_with"/>
+        <NamedIndividual IRI="#clear()_Python"/>
+        <NamedIndividual IRI="#Dictionary_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#use_with"/>
+        <NamedIndividual IRI="#clear()_Python"/>
+        <NamedIndividual IRI="#list_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_an_instance_of"/>
+        <NamedIndividual IRI="#copy()_Python"/>
+        <NamedIndividual IRI="#returns_a_copy_of_all_the_items"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#use_with"/>
+        <NamedIndividual IRI="#copy()_Python"/>
+        <NamedIndividual IRI="#Dictionary_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#use_with"/>
+        <NamedIndividual IRI="#copy()_Python"/>
+        <NamedIndividual IRI="#list_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_an_instance_of"/>
+        <NamedIndividual IRI="#count()_Python"/>
+        <NamedIndividual IRI="#returns_the_number_of_the_elements"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#use_with"/>
+        <NamedIndividual IRI="#count()_Python"/>
+        <NamedIndividual IRI="#list_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_an_instance_of"/>
+        <NamedIndividual IRI="#extend()_Python"/>
+        <NamedIndividual IRI="#add_the_elements_to_the_end"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#use_with"/>
+        <NamedIndividual IRI="#extend()_Python"/>
+        <NamedIndividual IRI="#list_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_an_instance_of"/>
+        <NamedIndividual IRI="#fromkeys()_Python"/>
+        <NamedIndividual IRI="#returns_a_specific_value"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#use_with"/>
+        <NamedIndividual IRI="#fromkeys()_Python"/>
+        <NamedIndividual IRI="#Dictionary_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_an_instance_of"/>
+        <NamedIndividual IRI="#get()_Python"/>
+        <NamedIndividual IRI="#returns_a_specific_value"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#use_with"/>
+        <NamedIndividual IRI="#get()_Python"/>
+        <NamedIndividual IRI="#Dictionary_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#can_be_extended"/>
+        <NamedIndividual IRI="#if...else_C/Java"/>
+        <NamedIndividual IRI="#if...else_if...else_C/Java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#extend_from"/>
+        <NamedIndividual IRI="#if...else_C/Java"/>
+        <NamedIndividual IRI="#if_C/Java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#extend_from"/>
+        <NamedIndividual IRI="#if...else_if...else_C/Java"/>
+        <NamedIndividual IRI="#if...else_C/Java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#can_be_extended"/>
+        <NamedIndividual IRI="#if_C/Java"/>
+        <NamedIndividual IRI="#if...else_C/Java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_an_instance_of"/>
+        <NamedIndividual IRI="#index()_Python"/>
+        <NamedIndividual IRI="#returns_the_index_of_the_first_element_with_specified_value"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#use_with"/>
+        <NamedIndividual IRI="#index()_Python"/>
+        <NamedIndividual IRI="#list_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_an_instance_of"/>
+        <NamedIndividual IRI="#insert()_Python"/>
+        <NamedIndividual IRI="#add_an_element_at_the_specified_position"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#use_with"/>
+        <NamedIndividual IRI="#insert()_Python"/>
+        <NamedIndividual IRI="#list_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_an_instance_of"/>
+        <NamedIndividual IRI="#items()_Python"/>
+        <NamedIndividual IRI="#returns_a_specific_value"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#use_with"/>
+        <NamedIndividual IRI="#items()_Python"/>
+        <NamedIndividual IRI="#Dictionary_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_an_instance_of"/>
+        <NamedIndividual IRI="#keys()_Python"/>
+        <NamedIndividual IRI="#returns_a_specific_value"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#use_with"/>
+        <NamedIndividual IRI="#keys()_Python"/>
+        <NamedIndividual IRI="#Dictionary_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_an_instance_of"/>
+        <NamedIndividual IRI="#pop()"/>
+        <NamedIndividual IRI="#remove_the_specific_element"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_an_instance_of"/>
+        <NamedIndividual IRI="#pop()_Python"/>
+        <NamedIndividual IRI="#remove_the_specific_element"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#use_with"/>
+        <NamedIndividual IRI="#pop()_Python"/>
+        <NamedIndividual IRI="#Dictionary_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#use_with"/>
+        <NamedIndividual IRI="#pop()_Python"/>
+        <NamedIndividual IRI="#list_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_an_instance_of"/>
+        <NamedIndividual IRI="#popitem()_Python"/>
+        <NamedIndividual IRI="#removes_the_last_element"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#use_with"/>
+        <NamedIndividual IRI="#popitem()_Python"/>
+        <NamedIndividual IRI="#Dictionary_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_an_instance_of"/>
+        <NamedIndividual IRI="#remove()_Python"/>
+        <NamedIndividual IRI="#removes_the_first_element"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#use_with"/>
+        <NamedIndividual IRI="#remove()_Python"/>
+        <NamedIndividual IRI="#list_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_an_instance_of"/>
+        <NamedIndividual IRI="#reverse()_C"/>
+        <NamedIndividual IRI="#reverse_all_the_elements"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#use_with"/>
+        <NamedIndividual IRI="#reverse()_C"/>
+        <NamedIndividual IRI="#ArrayList_C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_an_instance_of"/>
+        <NamedIndividual IRI="#reverse()_Python"/>
+        <NamedIndividual IRI="#reverse_the_order"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#use_with"/>
+        <NamedIndividual IRI="#reverse()_Python"/>
+        <NamedIndividual IRI="#list_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_an_instance_of"/>
+        <NamedIndividual IRI="#setdefault()_Python"/>
+        <NamedIndividual IRI="#returns_a_specific_value"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#use_with"/>
+        <NamedIndividual IRI="#setdefault()_Python"/>
+        <NamedIndividual IRI="#Dictionary_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_an_instance_of"/>
+        <NamedIndividual IRI="#sort()_C"/>
+        <NamedIndividual IRI="#sort_the_elements"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#use_with"/>
+        <NamedIndividual IRI="#sort()_C"/>
+        <NamedIndividual IRI="#ArrayList_C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_an_instance_of"/>
+        <NamedIndividual IRI="#sort()_Python"/>
+        <NamedIndividual IRI="#sort_the_elements"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#use_with"/>
+        <NamedIndividual IRI="#sort()_Python"/>
+        <NamedIndividual IRI="#list_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_an_instance_of"/>
+        <NamedIndividual IRI="#update()_Python"/>
+        <NamedIndividual IRI="#add_an_element"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_an_instance_of"/>
+        <NamedIndividual IRI="#update()_Python"/>
+        <NamedIndividual IRI="#updates_the_specified_value"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#use_with"/>
+        <NamedIndividual IRI="#update()_Python"/>
+        <NamedIndividual IRI="#Dictionary_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_an_instance_of"/>
+        <NamedIndividual IRI="#values()_Python"/>
+        <NamedIndividual IRI="#returns_a_value_of_all_elements"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#use_with"/>
+        <NamedIndividual IRI="#values()_Python"/>
+        <NamedIndividual IRI="#Dictionary_Python"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#Addition"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Addition (+) is the addition operator. It is used to add 2 values.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#Addition"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">//C# and Java
+int num1 = 5;
+int num2 = 10;
+
+int answer = num1 + num2;
+
+#Python
+num1 = 5
+num2 = 10
+
+answer = num1 + num2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#Addition"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">var1 + var2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#ArrayList_C"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">he ArrayList is a non-generic collection of objects whose size increases dynamically. It is the same as Array except that its size increases dynamically. An ArrayList can be used to add unknown data where you don&apos;t know the types and the size of the data.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#ArrayList_C"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">using System.Collections
+
+ArrayList my_list1 = new ArrayList();
+
+//or
+
+var my_list2 = new ArrayList();</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#ArrayList_C"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">using System.Collections
+
+ArrayList arlist = new ArrayList();
+var artlist = new ArrayList();</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#ArrayList_Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The ArrayList class has a regular array inside it. When an element is added, it is placed into the array. If the array is not big enough, a new, larger array is created to replace the old one and the old one is removed.
+
+Use an ArrayList for storing and accessing data</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#ArrayList_Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">import java.util.ArrayList;
+
+ArrayList&lt;String&gt; arlist = new ArrayList&lt;String&gt;();</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#ArrayList_Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">import java.util.ArrayList;
+
+ArrayList&lt;data type&gt; arlist = new ArrayList&lt;data type&gt;();</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#Dictionary_C"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A dictionary is a general-purpose data structure for storing a group of objects. A dictionary has a set of keys and each key has a single associated value. When presented with a key, the dictionary will return the associated value.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#Dictionary_C"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Dictionary&lt;int, string&gt; My_dict1 =  new Dictionary&lt;int, string&gt;(); 
+
+My_dict1.Add(1123, &quot;Welcome&quot;);
+My_dict1.Add(1124, &quot;to&quot;);
+My_dict1.Add(1125, &quot;GeeksforGeeks&quot;);
+
+foreach(KeyValuePair&lt;int, string&gt; ele1 in My_dict1)
+ {
+        Console.WriteLine(&quot;{0} and {1}&quot;, ele1.Key, ele1.Value);
+}</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#Dictionary_C"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Dictionary&lt;datatype1, datatype2&gt; var = new Dictionary&lt;datatype1, datatype2&gt;();
+
+var.Add(value1, value2);</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#Dictionary_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A dictionary is a general-purpose data structure for storing a group of objects. A dictionary has a set of keys and each key has a single associated value. When presented with a key, the dictionary will return the associated value.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#Dictionary_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">my_dict = {1: &apos;apple&apos;, 2: &apos;ball&apos;}</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#Dictionary_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">dictionary_name = {key: value}</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#Division"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Division (/) is the division operator. It is used to find the quotient when first operand is divided by the second.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#Division"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">//C# and Java
+float num1 = 5f;
+float num2 = 2f;
+float answer = num1 / num2;
+
+#Python
+num1 = 5
+num2 = 2
+answer = num1 / num2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#Division"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">var1 / var2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#Exponentiation_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Exponentiation (**) is the exponentiation operator. It is used to raise the first operand to power of second.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#Exponentiation_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">num1 = 2
+num2 = 3
+answer = num1 ** num2
+print(answer)
+
+#output is 8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#Exponentiation_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">var1 ** var2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#Floor_division_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Floor division (//) is used to conduct the floor division. It is used to find the floorof the quotient when first operand is divided by the second.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#Floor_division_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">num1 = 5
+num2 = 3
+answer = num1 // num2
+
+print(answer)
+
+#output is 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#Floor_division_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">var1 // var2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#HashSet_Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A HashSet is a collection of items where every item is unique, and it is found in the java.util package.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#HashSet_Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">HashSet&lt;String&gt; cars = new HashSet&lt;String&gt;();
+    
+cars.add(&quot;Volvo&quot;);
+cars.add(&quot;BMW&quot;);
+cars.add(&quot;Ford&quot;);
+cars.add(&quot;BMW&quot;);
+cars.add(&quot;Mazda&quot;);
+
+System.out.println(cars);
+
+//output is [Volvo, Mazda, Ford, BMW]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#HashSet_Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">HashSet&lt;String&gt; var = new HashSet&lt;String&gt;();
+var.add(&quot;value&quot;);</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#Hashtable_Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Hashtable&lt;Integer, String&gt; ht = new Hashtable&lt;&gt;();
+h1.put(value1, &quot;value2&quot;);</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#Hashtable_Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">a hash table (hash map) is a data structure that implements an associative array abstract data type, a structure that can map keys to values. A hash table uses a hash function to compute an index, also called a hash code, into an array of buckets or slots, from which the desired value can be found. During lookup, the key is hashed and the resulting hash indicates where the corresponding value is stored.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#Hashtable_Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Hashtable&lt;data type1, data type2&gt; ht = new Hashtable&lt;&gt;();
+h1.put(value1, &quot;value2&quot;);</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#LinkedList_Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The LinkedList stores its items in &quot;containers.&quot; The list has a link to the first container and each container has a link to the next container in the list. To add an element to the list, the element is placed into a new container and that container is linked to one of the other containers in the list.
+
+Use a LinkedList to manipulate data.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#LinkedList_Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">import java.util.LinkedList;
+
+LinkedList&lt;String&gt; varlist = new LinkedList&lt;String&gt;();</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#LinkedList_Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">import java.util.LinkedList;
+
+LinkedList&lt;data type&gt; varlist = new LinkedList&lt;data type&gt;();</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#Modulus"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Modulus (%) is the modulus operator. It is used to find the remainder when first operand is divided by the second.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#Modulus"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">//C# and Java
+float num1 = 5;
+float num2 = 2;
+float answer = num1 % num2;
+
+#Python
+num1 = 5
+num2 = 2
+answer = num1 % num2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#Modulus"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">var1 % var2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#Multiplication"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Multiplication (*) is the multiplication operator. It is used to find the product of 2 values.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#Multiplication"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">//C# and Java
+int num1 = 5;
+int num2 = 10;
+int answer = num1 * num2;
+
+#Python
+num1 = 5
+num2 = 10
+answer = num1 * num2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#Multiplication"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">var1 * var2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#Negative_sign"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">the symbol (–) used to indicate a negative quantity or a subtraction.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#Negative_sign"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">number = -1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#Negative_sign"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">var = negative_number</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#Parentheses"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">one of a pair of marks ( ) used to enclose a word or group of words or to group mathematical terms to be dealt with as a unit.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#Parentheses"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">num1 = 3
+num2 = 4
+num3 = 5
+answer = num1 * (num2 + num3)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#Parentheses"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">var1 * (var2 + var3)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#Queue_Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Java Queue is an interface available in java.util package and extends java.util.Collection interface.
+Just like Java List, Java Queue is a collection of ordered elements (Or objects) but it performs insert and remove operations differently. We can use Queue to store elements before processing those elements.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#Queue_Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Queue&lt;String&gt; pq = new PriorityQueue&lt;&gt;();
+
+pq.add(&quot;Apple&quot;);
+pq.add(&quot;Ball&quot;);
+pq.add(&quot;Orange&quot;);
+pq.add(&quot;Ball&quot;);
+
+System.out.println(pq);
+
+//output is [Apple, Ball, Orange, Ball]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#Queue_Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Queue&lt;Obj&gt; queue = new PriorityQueue&lt;Obj&gt; ();
+
+queue.add(value);</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#String"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A string is generally considered as a data type and is often implemented as an array data structure of bytes (or words) that stores a sequence of elements, typically characters, using some character encoding.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#String"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">// C#
+string message = &quot;hello&quot;;
+
+// Java
+String message = &quot;hello&quot;;
+
+# Python
+message=&quot;hello&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#String"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">// C#
+string var = &quot;value&quot;;
+
+// Java
+String var = &quot;value&quot;;
+
+# Python
+var=&quot;value&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#Subtraction"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Subtraction (–) is the subtraction operator. It is used to subtract the second value from the first value.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#Subtraction"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">//C# and Java
+int num1 = 10;
+int num2 = 5;
+int answer = num1 - num2;
+
+#Python
+num1 = 10
+num2 = 5
+answer = num1 - num2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#Subtraction"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">var1 - var2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#TreeSet_Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">- Java TreeSet class contains unique elements only like HashSet.
+- Java TreeSet class access and retrieval times are quiet fast.
+- Java TreeSet class doesn&apos;t allow null element.
+- Java TreeSet class is non synchronized.
+- Java TreeSet class maintains ascending order.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#TreeSet_Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">TreeSet&lt;String&gt; al=new TreeSet&lt;String&gt;();  
+al.add(&quot;Ravi&quot;);  
+al.add(&quot;Vijay&quot;);  
+al.add(&quot;Ravi&quot;);  
+al.add(&quot;Ajay&quot;);</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#TreeSet_Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">TreeSet&lt;String&gt; trset = new TreeSet&lt;String&gt;();
+
+trset.add(&quot;value&quot;);</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#arguments"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A value provided to a function when the function is called. This value is
+assigned to the corresponding parameter in the function.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#arguments"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">student(“George”,98)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#arguments"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">function-name(argument-list)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#assignment_statement"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">an assignment statement sets and/or re-sets the value stored in the storage location(s) denoted by a variable name; in other words, it copies a value into the variable. In most imperative programming languages, the assignment statement (or expression) is a fundamental construct.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#assignment_statement"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">num = 10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#assignment_statement"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">variable name = value</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#boolean"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">the Boolean (sometimes shortened to Bool) is a data type that has one of two possible values (usually denoted true and false) which is intended to represent the two truth values of logic and Boolean algebra.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#boolean"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">// C#
+bool x = true;
+
+// Java
+boolean x = true;
+
+# Python
+x = True</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#boolean"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">// C#
+bool var = true;
+
+// Java
+boolean var = true;
+
+# Python
+var=True</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#break"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">When a break statement is encountered inside a loop, the loop is immediately terminated and the program control resumes at the next statement following the loop.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#break"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">## in C sharp and Java
+while (true)
+{
+    ...
+    if (x == 0)
+    {
+        break;
+    }
+    ...
+}
+
+## in Python
+while True:
+    ...
+    if x == 0:
+        break
+    ...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#break"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">// C# and Java
+for (conditional of definite loop)
+{
+     if (condition)
+          break;
+}
+
+while (true)
+{
+     if (condition)
+          break;
+}
+
+# Python
+
+while True:
+    ...
+    if stop condition:
+        break
+    ...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#casting_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Typecasting is converting one data type into another one. It is also called as data conversion or type conversion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#casting_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">num_int = 123
+num_str= &quot;456&quot;
+
+num_str=int(num_str)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#casting_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">&lt;required_datatype&gt;(expression)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#continue"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">For the for loop, continue statement causes the conditional test and increment portions of the loop to execute. For the while and do...while loops, continue statement causes the program control to pass to the conditional tests.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#continue"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">## in C sharp and Java
+while (true)
+{
+    ...
+    if (x == 0)
+    {
+        continue;
+    }
+    ...
+}
+
+## in Python
+while True:
+    ...
+    if x == 0:
+        continue
+    ...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#continue"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">for (condition of difinite loop)
+{
+     if (condition)
+          continue;
+}
+
+while (true/continuation conditional 1)
+{
+     if (condition2)
+          continue;
+}
+
+while True/continuation conditonal 1:
+    ...
+    if condition2:
+        continue
+    ...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#float"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">float is a data type composed of a number that is not an integer, because it includes a fraction represented in decimal format.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#float"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">// C#
+float x = 1.2f;
+
+// Java
+float x = 1.2f;
+
+# Python
+var=1.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#float"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">// C#
+float var = floating-point_value;
+
+// Java
+float var = floating-point_value;
+
+# Python
+var=floating-point_value</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#for_inside_for"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">If a loop exists inside the body of another loop, it&apos;s called a nested loop.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#for_inside_for"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">//C# and Java
+int muliplication = 1;
+for(int i = 1; i &lt;= 5; i++)
+{
+    for(int j = 1; j &lt;= 12; j++)
+    {
+        multiplication = i * j;
+        //statement print out variable &apos;multipliation&apos;
+    }
+}
+
+#Python
+for x in 5:
+    for y in 12:
+        mul = x * y
+        print(mul)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#for_inside_for"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">for (expression)
+{
+    //outer-loop block
+    for (expression)
+    {
+        //inner-loop block
+    }
+}</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#foreach_C"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The foreach statement in many other languages, especially array programming languages, does not have any particular order. This simplifies loop optimization in general and in particular allows vector processing of items in the collection concurrently.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#foreach_C"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">int[] var = {10, 20, 30, 40};
+
+foreach (int _var in var)
+{
+          Console.WriteLine(_var);
+}</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#foreach_C"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">foreach (variable in array-name)
+{
+    loop block
+}</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#foreach_Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The foreach statement in many other languages, especially array programming languages, does not have any particular order. This simplifies loop optimization in general and in particular allows vector processing of items in the collection concurrently.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#foreach_Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">int[] var = {10, 20, 30, 40};
+
+for (int _var : var)
+{
+    System.out.println(_var);
+}</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#foreach_Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">for (variable : array-name)
+{
+    loop block
+}</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#fruitful_function"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A function that returns a value is called fruitful function.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#fruitful_function"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">def add():
+    a=10
+    b=20
+    c=a+b
+    return c
+
+c=add()
+print(c)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#fruitful_function"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">def function-name():
+    statement in function
+    return value|expression</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#hashmap_Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">HashMap is an implementation of Map. All optional operations are supported, adding and removing. Keys and values can be any objects.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#hashmap_Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">HashMap&lt;String, String&gt; capitalCities = new HashMap&lt;String, String&gt;();
+
+capitalCities.put(&quot;England&quot;, &quot;London&quot;);
+capitalCities.put(&quot;Germany&quot;, &quot;Berlin&quot;);
+capitalCities.put(&quot;Norway&quot;, &quot;Oslo&quot;);
+
+System.out.println(capitalCities.get(&quot;England&quot;));
+
+//output is London</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#hashmap_Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">HashMap&lt;String,String&gt; hm = new HashMap&lt;String, String&gt;();
+
+hm.put(&quot;value1&quot;, &quot;value2&quot;);
+
+hm.get(&quot;value1&quot;);</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#if...elif...else_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Alternatively referred to as elsif, else if is a conditional statement performed after an if statement that, if true, performs a function.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#if...elif...else_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">if x &lt; 0:
+    str = &quot;negative&quot;
+elif x &gt; 0:
+    str = &quot;positive&quot;
+else:
+    str = &quot;zero&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#if...elif...else_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">if condition-1:
+      true-expression-1
+elif condition-2:
+      true-expression-2
+else:
+       false-expression</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#if...else_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">An if else statement in programming is a conditional statement that runs a different set of statements depending on whether an expression is true or false.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#if...else_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">if x == 10:
+    x=x+1
+else:
+    x=x-1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#if...else_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">if condition: 
+    true-expression
+else:
+    false-expression</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#if_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">An if statement is a programming conditional statement that, if proved true, performs a function or displays information.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#if_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">if x == 10:
+    x=x+1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#if_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">if condition:
+    true-expression</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#if_inside_another_else_block"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The if-statement that inside another else-statement block.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#if_inside_another_else_block"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">//C# and Java
+int x = 5;
+if (x &lt; 5)
+{
+    x++;
+}
+else
+{
+    if (x%2==0)
+    {
+        x=x+10;
+    }
+}
+
+#Python
+x = 5
+if (x &lt; 5):
+    x=x+1
+else:
+    if (x % 2 == 0):
+        x=x+10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#if_inside_another_else_block"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">//C# and Java
+if (condition)
+{
+    //outer true-block
+}
+else
+{
+    //outer false-block
+    if (condition)
+    {
+        //inner true-block
+    }
+}
+
+#Python
+if (condition):
+    #outer true-block
+else:
+    #outer false-block
+    if (condition):
+        #inner true-block</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#if_inside_another_if_block"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The if-statement that inside another if-statement block.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#if_inside_another_if_block"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">//C# and Java
+int x = 5;
+if (x &gt;= 5)
+{
+    if (x % 2 == 0)
+    {
+        x++;
+    }
+}
+
+#Python
+x = 5
+if (x &gt;= 5):
+    if (x % 2 == 0):
+        x=x+1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#if_inside_another_if_block"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">//C# and Java
+if (condition)
+{
+    //outer true-block
+    if (condition)
+    {
+        //inner true-block
+    }
+}
+
+#Python
+if (condition):
+    #outer true-block
+    if (condition):
+        #inner true-block</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#indefinite_loop_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">An indefinite loop is a loop that waits for some condition to become true. In general, it&apos;s not obvious how many iterations it takes. For example, you might be looking for the first number that is divisible by 2, 3, 5, 7, and 11. You could compute this ahead of time, but it&apos;s not easy.
+
+This is considered an indefinite loop, where the number of iterations is unknown ahead of time, or not easily computed.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#indefinite_loop_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">while x &lt; 10:
+    x=x+1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#indefinite_loop_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">while condition:
+    loop block</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#input_C"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The Console.ReadLine() method returns a string. Therefore, you cannot get information from another data type, such as int.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#input_C"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">string name = Console.ReadLine();</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#input_C"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">string str = Console.ReadLine();</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#input_Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Java provides different ways to get input from the user. However, in this tutorial, you will learn to get input from user using the object of Scanner class.
+
+In order to use the object of Scanner, we need to import java.util.Scanner package.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#input_Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">String name = new java.util.Scanner(System.in).nextLine();
+
+int number = new java.util.Scanner(System.in).nextInt();
+
+float score = new java.util.Scanner(System.in).nextFloat();</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#input_Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">String str = new java.util.Scanner(System.in).nextLine();
+
+int input = new java.util.Scanner(System.in).nextInt();
+
+float input = new java.util.Scanner(System.in).nextFloat();</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#input_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The input() function allows a user to insert a value into a program. input() returns a string value. You can convert the contents of an input using any data type. 
+
+For instance, you can convert the value a user inserts to a floating-point number.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#input_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">input(&quot;Input your name:&quot;)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#input_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">input(string s)
+input()</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#int"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">int, short for &quot;integer,&quot; is a fundamental variable type built into the compiler and used to define numeric variables holding whole numbers.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#int"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">// C#
+int x = 10;
+
+// Java
+int x = 10;
+
+# Python
+var=10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#int"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">// C#
+int var = integer_value;
+
+// Java
+int var = integer_value;
+
+# Python
+var=integer_value</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#list_C"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The List&lt;T&gt; is a collection of strongly typed objects that can be accessed by index and having methods for sorting, searching, and modifying list. It is the generic version of the ArrayList that comes under System.Collection.Generic namespace.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#list_C"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">List&lt;int&gt; varlist = new List&lt;int&gt;();
+varlist.Add(value);
+
+var varlist = new List&lt;string&gt;() { &quot;str1&quot;, &quot;str2&quot;, &quot;str3&quot; };</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#list_C"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">List&lt;datatype&gt; varlist = new List&lt;datatype&gt;();
+varlist.Add(value);
+
+var varlist = new List&lt;datatype&gt;() { value1, value2, value3 };</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#list_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Lists are used to store multiple items in a single variable. Lists are one of 4 built-in data types in Python used to store collections of data, the other 3 are Tuple, Set, and Dictionary, all with different qualities and usage.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#list_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">list_name = [value1, value2, valueN]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#list_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">my_list = [&quot;apple&quot;, &quot;ball&quot;, &quot;orange&quot;]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#math_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Python has a set of built-in math functions, including an extensive math module, that allows you to perform mathematical tasks on numbers.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#math_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">x = min(5, 10, 25)
+y = max(5, 10, 25)
+print(x)    #output is 5
+print(y)    #output is 25
+
+x = abs(-7.25)
+print(x)    #output is 7.25
+
+x = pow(4, 3)
+print(x)    #output is 64</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#math_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">math_function_name(expression)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#output_C"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">In order to output something in C#, we can use System.Console.WriteLine() OR System.Console.Write() 
+
+Here, System is a namespace, Console is a class within namespace System and WriteLine and Write are methods of class Console .</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#output_C"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Console.Write(&quot;Hello, world&quot;);
+
+int num = 10;
+Console.WriteLine(&quot;number is {0}&quot;, num);</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#output_C"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Console.Write(Object obj);
+Console.WriteLine(Object obj);</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#output_Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The output is the data what we receive from the program in the form of result. Stream represents flow of data or the sequence of data.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#output_Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">System.out.print(&quot;Hello, world&quot;);
+
+int num = 10;
+System.out.println(&quot;Number is &quot; + num);</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#output_Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">System.out.print(Object obj)
+System.out.println(Object obj)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#output_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">We use the print() function to output data to the standard output device (screen).</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#output_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">print(&apos;Hello&apos;)
+
+num = 10
+print(&apos;Hello &apos;, num)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#output_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">print(Object obj)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#parameters"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A variable used inside a function to refer to the value passed as an argument.
+
+Parameters are the variables which used in the function definition. Parameters are inputs to functions. Parameter receives the input from the function call.
+
+It is possible to define more than one parameter in the function definition.
+
+Types of parameters/Arguments:
+1. Required/Positional parameters
+2. Keyword parameters
+3. Default parameters
+4. Variable length parameters</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#parameters"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">def student( name, roll ):  # name and roll are parameters
+    print(name,roll)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#parameters"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">def function-name(parameter-list):
+    statement in function</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#remove_all_the_elements"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Removes the element with the specified key</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#returns_a_specific_value"/>
+        <Literal>Returns a dictionary with the specified keys and value.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#string_function"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">String functions are used in computer programming languages to manipulate a string or query information about a string (some do both).</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#string_function"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">//C#
+string message = &quot;hello&quot;;
+string upper = message.ToUpper();
+
+//Java
+String message = &quot;hello&quot;;
+String upper = message.ToUpperCase();
+
+#Python
+message = &quot;hello&quot;
+message.upper()</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#string_function"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">var.string_function_name(value)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#try...except_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">When an error occurs, or exception as we call it, Python will normally stop and generate an error message.
+
+The try block lets you test a block of code for errors.
+
+The except block lets you handle the error.
+
+The finally block lets you execute code, regardless of the result of the try- and except blocks.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#try...except_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">try:
+    print(x)
+except:
+    print(&quot;An exception occurred&quot;)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#try...except_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">try:
+    try block
+except:
+    except block</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#void_function"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A function that perform action but don’t return any value.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#void_function"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">def add():
+    a=10
+    b=20
+    c=a+b
+    print(c)
+
+add()</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#void_function"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">def function-name():
+    statement in function</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#while_inside_while"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">//C# and Java
+while (condition)
+{
+    //outer-loop
+    while (condition)
+    {
+        //inner-loop
+    }
+}
+
+#Python
+while (condition):
+    #outer-loop
+    while (condition):
+        #inner-loop</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#while_inside_while"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A nested while loop is a while statement inside another while statement. In a nested while loop, one iteration of the outer loop is first executed, after which the inner loop is executed.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#while_inside_while"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">//C# and Java
+int outerLoop = 1;
+int innerLoop = 3;
+while (outerLoop &lt;= 4)
+{
+    while (innerLoop &lt;= 6)
+    {
+        innerLoop++;
+    }
+    outerLoop++;
+}
+
+// value in outerLoop=5 and innerLoop=7
+
+
+#Python
+outerLoop = 1
+innerLoop = 3
+while (outerLoop &lt;= 4):
+    while (innerLoop &lt;= 6):
+        innerLoop = innerLoop + 1
+    outerLoop = outerLoop + 1
+
+# value in outerLoop=5 and innerLoop=7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#**=_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The exponentiation assignment operator (**=) raises the value of a variable to the power of the right operand.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#**=_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">num = 3
+num **= 2
+
+print(num)
+
+#output is 9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#**=_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">a**=b 
+#same as a = a ** b</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#*="/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The *= operator first multiplies the value of the expression (on the right-hand side of the operator) by the value of the variable or property (on the left-hand side of the operator). The operator then assigns the result of that operation to the variable or property.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#*="/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">//C# and Java
+int num = 5;
+num *= 2;
+
+//value in num is 10
+
+#Python
+num = 5
+num *= 2
+
+#value in num is 10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#*="/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">a*=b 
+#same as a = a * b</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#+="/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">+= is an assignment operator, that, when followed by an expression with a numerical value, will add the value of that expression to the value of the variable to the left of the operator, and assign the result to that variable.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#+="/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">//C# and Java
+int num = 5;
+num += 2;
+
+//value in num is 7
+
+#Python
+num = 5
+num += 2
+
+# value in num is 7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#+="/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">a+=b 
+#same as a = a + b</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#-="/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The subtraction assignment operator (-=) subtracts the value of the right operand from a variable and assigns the result to the variable.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#-="/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">//C# and Java
+int num = 5;
+num -= 2;
+
+//value in num is 3
+
+#Python
+num = 5
+num -= 2
+
+#value in num is 3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#-="/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">a-=b 
+#same as a = a - b</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#//=_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The floor division assignment is done with //=, the floor division assignment operator.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#//=_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">num = 5
+num //= 3
+print(num)
+
+#output is 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#//=_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">a//=b 
+#same as a = a // b</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#/="/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The division assignment operator ( /= ) divides a variable by the value of the right operand and assigns the result to the variable.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#/="/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">//C# and Java
+float num =  5f;
+num /= 2;
+
+//value in num is 2.5
+
+#Python
+num = 5
+num /= 2
+
+#value in num is 2.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#/="/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">a/=b 
+#same as a = a / b</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#="/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">//C# and Java
+int number = 5
+
+#Python
+number = 5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#="/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">An assignment operator is the operator used to assign a new value to a variable, property, event or indexer element.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#="/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">var = value</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#Add()_C"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The element to append to the array.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#Add()_C"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">using System.Collections
+
+ArrayList arlist = new ArrayList();
+
+arlist.Add(1);
+arlist.Add(&quot;Orange&quot;);
+arlist.Add(true);
+arlist.Add(1.2);
+arlist.Add(null);</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#Add()_C"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">array_list_name.Add(value);</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#Array_C/Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">An array is a sequenced collection of elements of the same data type with a single identifier name.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#Array_C/Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">int[] numbers = new int[10];</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#Array_C/Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">int[] var = new int[size_array]; 
+
+float[] var = new float[size_array];
+
+String[] var = new String[size_array];</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#Clear()_C"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Removes all the elements from the dictionary</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#Clear()_C"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Dictionary&lt;int, string&gt; My_dict1 =  new Dictionary&lt;int, string&gt;(); 
+
+My_dict1.Add(1123, &quot;Welcome&quot;);
+My_dict1.Add(1124, &quot;to&quot;);
+My_dict1.Add(1125, &quot;GeeksforGeeks&quot;);
+
+My_dict1.Clear();</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#Clear()_C"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">dictionary_name.Clear();</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#Decrement_C/Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The -- (decrement) operator subtracts 1 from the value of a scalar operand, or if the operand is a pointer, decreases the operand by the size of the object to which it points.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#Decrement_C/Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">//C#
+int num1=5;
+int num2=10;
+Console.WriteLine(--num1);
+Console.WriteLine(num2--);
+
+//output is 4 and 10
+
+//Java
+int num1=5;
+int num2=10;
+System.out.println(--num1);
+System.out.println(num2--);
+
+//output is 4 and 10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#Decrement_C/Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">var--;    //pre-decrement
+--var;    //post-decrement</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#Increment_C/Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The increment operator increases, and the decrement operator decreases, the value of its operand by 1.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#Increment_C/Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">//C#
+int num1 = 5;
+int num2 = 10;
+Console.WriteLine(num1++);
+Console.WriteLine(++num2);
+
+//output is 5 and 11
+
+//Java
+int num1 = 5;
+int num2 = 10;
+System.out.println(num1++);
+System.out.println(++num2);
+
+//output is 5 and 11</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#Increment_C/Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">var++;    //pre-increment
+++var;    //post-increment</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#Math_C/Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The C# and Java Math class has many methods that allows you to perform mathematical tasks on numbers.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#Math_C/Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">//C#
+Console.WriteLine(Math.Max(5,10));    //output is 10
+Console.WriteLine(Math.Min(5,10));    //output is 5
+Console.WriteLine(Math.Sqrt(4));    //output is 2
+Console.WriteLine(Math.Abs(-4.7));    //output is 4.7
+Console.WriteLine(Math.Round(9.99));    //output is 10
+
+//Java
+System.out.println(Math.max(5,10));    //output is 10
+System.out.println(Math.min(5,10));    //output is 5
+System.out.println(Math.sqrt(4));    //output is 2
+System.out.println(Math.abs(-4.7));    //output is 4.7
+System.out.println(Math.random());    //output between 0.0 and 1.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#Math_C/Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Math.method_name(expression)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#Remove()_C"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Removes the element with the specified key</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#Remove()_C"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Dictionary&lt;int, string&gt; My_dict1 =  new Dictionary&lt;int, string&gt;(); 
+
+My_dict1.Add(1123, &quot;Welcome&quot;);
+My_dict1.Add(1124, &quot;to&quot;);
+My_dict1.Add(1125, &quot;GeeksforGeeks&quot;);
+
+My_dict1.Remove(1124);</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#Remove()_C"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">dictionary_name.Remove(key);</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#Stack_C/Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Stack is a linear data structure which follows a particular order in which the operations are performed. The order may be LIFO(Last In First Out) or FILO(First In Last Out).</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#Stack_C/Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Stack stack1 = new Stack();
+
+Stack&lt;String&gt; stack2 = new Stack&lt;String&gt;();
+
+stack1.push(4);
+stack1.push(&quot;All&quot;);
+stack1.push(&quot;Geeks&quot;);
+
+stack2.push(&quot;Geeks&quot;);
+stack2.push(&quot;For&quot;);
+stack2.push(&quot;Geeks&quot;);
+
+System.out.println(stack1);  //output is [4, All, Geeks]
+System.out.println(stack2);  //output is [Geeks, For, Geeks]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#Stack_C/Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">// Default initialization of Stack
+Stack stack = new Stack();
+
+// Initialization of Stack
+// using Generics
+Stack&lt;E&gt; stack = new Stack&lt;E&gt;();</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#add()_Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The element to append to the array.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#add()_Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">import java.util.ArrayList;
+
+ArrayList&lt;String&gt; arlist = new ArrayList&lt;String&gt;();
+
+arlist.add(&quot;apple&quot;);
+arlist.add(&quot;ball&quot;);
+arlist.add(&quot;orange&quot;);</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#add()_Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">array_list_name.add(value);</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#and="/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">//C#
+int num = 5;
+num &amp;= 3;
+Console.Write(num);
+
+//Java
+int num = 5;
+num &amp;= 3;
+System.out.println(num);
+
+#Python
+num = 5
+num &amp;= 3
+print(num)
+
+#output is 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#and="/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The bitwise AND assignment operator (&amp;=) uses the binary representation of both operands, does a bitwise AND operation on them and assigns the result to the variable.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#and="/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">a&amp;=b 
+#same as a = a &amp; b</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#append()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The append() method appends an element to the end of the list.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#append()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">a = [&quot;apple&quot;, &quot;banana&quot;, &quot;cherry&quot;]
+b = [&quot;Ford&quot;, &quot;BMW&quot;, &quot;Volvo&quot;]
+a.append(b)
+
+print(a)
+
+#output is [&apos;apple&apos;, &apos;banana&apos;, &apos;cherry&apos;, [&quot;Ford&quot;, &quot;BMW&quot;, &quot;Volvo&quot;]]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#append()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">list_name.append(element)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#casting_C/Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Typecasting is converting one data type into another one. It is also called as data conversion or type conversion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#casting_C/Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">double number = 1234.7;
+int a;
+a = (int)number;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#casting_C/Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">(&lt;required_datatype&gt;)expression</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#clear()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Removes all the elements from the list/Dictionary</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#clear()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">#Dictionary
+my_dict = {1: &apos;apple&apos;, 2: &apos;ball&apos;}
+my_dict.clear()
+
+#List
+my_list = [&apos;apple&apos;, &apos;ball&apos;]
+my_list.clear()</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#clear()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">dictionary_name.clear()
+
+list_name.clear()</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#copy()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The copy() method returns a copy of the specified list/dictionary.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#copy()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">#Dictionary
+my_dict = {1:&apos;apple&apos;, 2:&apos;ball&apos;}
+x = my_dict.copy()
+
+#List
+my_list = [&apos;apple&apos;, &apos;ball&apos;]
+x = my_list.copy()</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#copy()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">dictionary_name.copy()
+
+list_name.copy()</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#count()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The count() method returns the number of elements with the specified value.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#count()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">fruits = [1, 4, 2, 9, 7, 8, 9, 3, 1]
+
+x = fruits.count(9)
+
+print(x)
+
+#output is 2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#count()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">list_name.count(value)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#definite_loop_C/Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A definite loop is a loop in which the number of times it is going to execute is known in advance before entering the loop. The number of iterations it is going to repeat will be typically provided through an integer variable. In general, for loops are considered to be definite loops.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#definite_loop_C/Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">for (int i = 0; i &lt; 10; i++)
+{
+    i++;
+}</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#definite_loop_C/Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">for (initial-value; condition; in/decrease)
+{
+    loop-statements
+}</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#extend()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The extend() method adds the specified list elements (or any iterable) to the end of the current list. a &quot;iterable&quot; is required. Any iterable (list, set, tuple, etc.).</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#extend()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">fruits = [&apos;apple&apos;, &apos;banana&apos;, &apos;cherry&apos;]
+
+points = (1, 4, 5, 9)
+
+fruits.extend(points)
+
+print(fruits)
+
+#output is [&apos;apple&apos;, &apos;banana&apos;, &apos;cherry&apos;, 1, 4, 5, 9]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#extend()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">list_name.extend(iterable)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#fromkeys()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The fromkeys() method returns a dictionary with the specified keys and the specified value. &quot;keys&quot; is Required. An iterable specifying the keys of the new dictionary, and &quot;value&quot; is Optional. The value for all keys. Default value is None.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#fromkeys()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">old_dict = (&apos;key1&apos;, &apos;key2&apos;, &apos;key3&apos;)
+
+new_dict = dict.fromkeys(old_dict)
+
+print(new_dict)
+
+#output is [&apos;key1&apos;: None, &apos;key2&apos;: None, &apos;key3&apos;: None]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#fromkeys()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">dict.fromkeys(keys, value)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#get()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The get() method returns the value of the item with the specified key. &quot;keyname&quot; is required. The keyname of the item you want to return the value from, and &quot;value&quot; is optional. A value to return if the specified key does not exist.
+Default value None.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#get()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">my_dict = {1:&apos;apple&apos;, 2:&apos;ball&apos;, 3:&apos;orange&apos;}
+x = my_dict.get(2)
+
+#output is ball</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#get()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">dictionary_name.get(keyname, value)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#if...else_C/Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">An if else statement in programming is a conditional statement that runs a different set of statements depending on whether an expression is true or false.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#if...else_C/Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">if (x == 10)
+{
+    x++;
+}
+else
+{
+    x--;
+}</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#if...else_C/Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">if (condition)
+{
+    true-expression
+}
+else
+{
+    false-expression
+}</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#if...else_if...else_C/Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Alternatively referred to as elsif, else if is a conditional statement performed after an if statement that, if true, performs a function.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#if...else_if...else_C/Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">string str = &quot;&quot;;
+if (x &lt; 0)
+{
+    str = &quot;negative&quot;;
+}
+else if (x &gt; 0)
+{
+    str = &quot;positive&quot;;
+}
+else
+{
+    str = &quot;zero&quot;;
+}</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#if...else_if...else_C/Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">if (condition-1)
+{
+    true-expression-1
+}
+else if (condition-2)
+{
+    true-expression-2
+}
+else
+{
+    false-expression
+}</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#if_C/Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">An if statement is a programming conditional statement that, if proved true, performs a function or displays information.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#if_C/Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">if (x == 10)
+{
+    x++;
+}</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#if_C/Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">if (condition)
+{
+    true-expression
+}</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#indefinite_loop_C/Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">An indefinite loop is a loop that waits for some condition to become true. In general, it&apos;s not obvious how many iterations it takes. For example, you might be looking for the first number that is divisible by 2, 3, 5, 7, and 11. You could compute this ahead of time, but it&apos;s not easy.
+
+This is considered an indefinite loop, where the number of iterations is unknown ahead of time, or not easily computed.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#indefinite_loop_C/Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">while (i &lt; 10)
+{
+    i++;
+}</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#indefinite_loop_C/Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">while (condition)
+{
+    loop-statements
+}</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#index()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The index() method returns the position at the first occurrence of the specified value.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#index()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">fruits = [4, 55, 64, 32, 16, 32]
+
+x = fruits.index(32)
+
+print(x)
+
+#output is 3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#index()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">list_name.index(element)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#insert()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The insert() method inserts the specified value at the specified position.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#insert()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">fruits = [&apos;apple&apos;, &apos;banana&apos;, &apos;cherry&apos;]
+
+fruits.insert(1, &quot;orange&quot;)
+
+print(fruits)
+
+#output is [&apos;apple&apos;, &apos;orange&apos;, &apos;banana&apos;, &apos;cherry&apos;]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#insert()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">list_name.insert(position, element)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#items()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The items() method returns a view object. The view object contains the key-value pairs of the dictionary, as tuples in a list.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#items()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">my_dict = {1:&apos;apple&apos;, 2:&apos;ball&apos;, 3:&apos;orange&apos;}
+my_dict[2] = &apos;box&apos;
+
+x = my_dict.items()
+
+print(x)
+
+#output is dict_items([(1, &apos;apple&apos;), (2, &apos;box&apos;), (3, &apos;orange&apos;)])</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#items()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">dictionary_name.items()</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#keys()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The keys() method returns a view object. The view object contains the keys of the dictionary, as a list.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#keys()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">dictionary_name.keys()</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#keys()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">my_dict = {1:&apos;apple&apos;, 2:&apos;ball&apos;, 3:&apos;orange&apos;}
+x = my_dict.keys()
+print(x)
+
+# output is dict_keys([1, 2, 3])</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#mod="/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The remainder assignment operator ( %= ) divides a variable by the value of the right operand and assigns the remainder to the variable.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#mod="/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">//C# and Java
+int num = 5;
+num %= 2;
+
+#Python
+num = 5
+num %= 2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#mod="/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">a%=b 
+#same as a = a % b</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#or="/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The bitwise OR assignment operator (|=) uses the binary representation of both operands, does a bitwise OR operation on them and assigns the result to the variable.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#or="/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">//C#
+int num = 3;
+num |= 10;
+Console.Write(num);
+
+//Java
+int num = 3;
+num |= 10;
+System.out.print(num);
+
+#Python
+num = 5
+num |= 3
+print(num)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#or="/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">a|=b 
+#same as a = a || b</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#pop()"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Removes the element with the specified key</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#pop()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The pop() method removes the specified position/item from the list/dictionary.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#pop()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">my_dict = {1:&apos;apple&apos;, 2:&apos;ball&apos;}
+my_dict.pop(2) #remove key 2
+
+my_list = [&apos;apple&apos;, &apos;ball&apos;]
+my_list(1)  #remove element ball</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#pop()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">dictionary_name.pop(key)
+
+list_name.pop(position)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#popitem()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The popitem() method removes the item that was last inserted into the dictionary. In versions before 3.7, the popitem() method removes a random item.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#popitem()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">my_dict = {1:&apos;apple&apos;, 2:&apos;ball&apos;, 3:&apos;orange&apos;}
+x = my_dict.popitem()
+print(x)
+
+# output is (3, &apos;orange&apos;)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#popitem()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">dictionary_name.popitem()</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#remove()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The remove() method removes the first occurrence of the element with the specified value.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#remove()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">fruits = [&apos;apple&apos;, &apos;banana&apos;, &apos;cherry&apos;]
+
+fruits.remove(&quot;banana&quot;)
+
+print(fruits)
+
+#output is [&apos;apple&apos;, &apos;cherry&apos;]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#remove()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">list_name.remove(element)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#reverse()_C"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The Reverse() method in array class reverses the sequence of the elements in the entire one-dimensional Array. Array. Reverse(temp); Within the reverse method, set the elements like the following code snippet.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#reverse()_C"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">int[] varArray = {10, 20, 30};
+Array.Reverse(varArray);</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#reverse()_C"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Array.Reverse(varArray);</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#reverse()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The reverse() method reverses the sorting order of the elements.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#reverse()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">fruits = [&apos;apple&apos;, &apos;banana&apos;, &apos;cherry&apos;]
+
+fruits.reverse()
+
+print(fruits)
+
+#output is [&apos;cherry&apos;, &apos;banana&apos;, &apos;apple&apos;]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#reverse()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">list_name.reverse()</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#setdefault()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The setdefault() method returns the value of the item with the specified key.
+If the key does not exist, insert the key, with the specified value.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#setdefault()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">my_dict = {1:&apos;apple&apos;, 2:&apos;ball&apos;, 3:&apos;orange&apos;}
+my_dict.setdefault(2, &apos;box&apos;)
+my_dict.setdefault(4, &apos;box&apos;)
+print(my_dict)
+
+# output is {1: &apos;apple&apos;, 2: &apos;ball&apos;, 3: &apos;orange&apos;, 4: &apos;box&apos;}</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#setdefault()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">dictionary_name.setdefault(keyname, value)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#sort()_C"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The sort() method sorts the elements of an array in place and returns the reference to the same array, now sorted. The default sort order is ascending, built upon converting the elements into strings, then comparing their sequences of UTF-16 code units values.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#sort()_C"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">string[] strArray = {&quot;str1&quot;, &quot;str2&quot;, &quot;str3&quot;};
+Array.Sort(strArray);</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#sort()_C"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Array.Sort(strArray);</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#sort()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The sort() method sorts the list ascending by default.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#sort()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">cars = [&apos;Ford&apos;, &apos;BMW&apos;, &apos;Volvo&apos;]
+
+cars.sort(reverse=True)
+
+print(cars)
+#output is [&apos;Volvo&apos;, &apos;Ford&apos;, &apos;BMW&apos;]
+
+def myFunc(e):
+  return len(e)
+
+cars.sort(key=myFunc)
+
+print(cars)
+#output is [&apos;BMW&apos;, &apos;Ford&apos;, &apos;Volvo&apos;]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#sort()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">list_name.sort(reverse=True|False, key=myFunction)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#try-catch-finally_C/Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The try/catch/finally statement handles some or all of the errors that may occur in a block of code, while still running code.
+
+Errors can be coding errors made by the programmer, errors due to wrong input, and other unforeseeable things.
+
+The try statement allows you to define a block of code to be tested for errors while it is being executed.
+
+The catch statement allows you to define a block of code to be executed, if an error occurs in the try block.
+
+The finally statement lets you execute code, after try and catch, regardless of the result.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#try-catch-finally_C/Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">try
+{
+    num = x / 0;
+}
+catch (ArithmeticException e)
+{
+   str = &quot;error&quot;;
+}</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#try-catch-finally_C/Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">try
+{
+    try-block;
+}
+catch (exception-name)
+{
+    catch-block;
+}
+finally
+{
+    finally-block;
+}</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#update()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The update() method inserts the specified items to the dictionary.
+The specified items can be a dictionary, or an iterable object with key value pairs. a &quot;iterable&apos; is a dictionary or an iterable object with key value pairs, that will be inserted to the dictionary.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#update()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">my_dict = {1:&apos;apple&apos;, 2:&apos;ball&apos;, 3:&apos;orange&apos;}
+my_dict.update({2: &apos;box&apos;})
+print(my_dict)
+
+# output is {1: &apos;apple&apos;, 2: &apos;box&apos;, 3: &apos;orange&apos;}</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#update()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">dictionary_name.update(iterable)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#values()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">The values() method returns a view object. The view object contains the values of the dictionary, as a list. The view object will reflect any changes done to the dictionary.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#values()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">my_dict = {1:&apos;apple&apos;, 2:&apos;ball&apos;, 3:&apos;orange&apos;}
+x = my_dict.values()
+print(x)
+
+# output is dict_values([&apos;apple&apos;, &apos;ball&apos;, &apos;orange&apos;])</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#values()_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">dictionary_name.values()</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#defination"/>
+        <NamedIndividual IRI="#variable_declaration_C/Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">A variable definition tells the compiler where and how much storage to create for the variable. A variable definition specifies a data type and contains a list of one or more variables of that type as follows type variable_list;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#example"/>
+        <NamedIndividual IRI="#variable_declaration_C/Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">int num;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#grammar_specification"/>
+        <NamedIndividual IRI="#variable_declaration_C/Java"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">datatype variable name;</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#can_be_extended"/>
+        <ObjectProperty IRI="#extend_from"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#consists_of"/>
+        <ObjectProperty IRI="#is_part_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#has_an_instance"/>
+        <ObjectProperty IRI="#is_an_instance_of"/>
+    </InverseObjectProperties>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#can_be_extended"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#consists_of"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#extend_from"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#is_an_instance_of"/>
+    </InverseFunctionalObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#depend_on"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#is_similar_to"/>
+    </SymmetricObjectProperty>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#if_C/Java</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">An if statement is a programming conditional statement that, if proved true, performs a function or displays information.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
